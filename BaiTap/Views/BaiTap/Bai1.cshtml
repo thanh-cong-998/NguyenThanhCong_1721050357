@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bai1</h2>
+@using (Html.BeginForm())
+{
+    <label>Nhập a :</label>
+    <input type="text" name="HeSoA" />
+    <label>Nhập b :</label>
+    <input type="text" name="HeSoB" />
+    <label>Nhập c :</label>
+    <input type="text" name="HeSoC" />
+    <input type="submit" value="Giải phương trình" />
+}
+@ViewBag.Ketqua
+
+

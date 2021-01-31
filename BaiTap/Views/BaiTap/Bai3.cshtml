@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Bai3";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bai3</h2>
+@using (Html.BeginForm())
+{
+    <label>Nhập n :</label>
+    <input type="text" name="soz" />
+    <input type="submit" value="Tổng SNT" />
+}
+
+@ViewBag.TongSNT
+
+
+
